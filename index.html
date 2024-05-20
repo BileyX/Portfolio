@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/da9b5f6cbe.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav id="mian-nav">
+        <div id="name">Biruk Sitota</div>
+        <div>
+          <ul id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="profile-pic">
+            <img id="pic" src="img1.jpg">
+        </div>
+        <div id="profile-text">
+            <p id="text">Hello, I'm</p>
+            <h1 id="me">Biruk Sitota</h1>
+            <p id="text2">Student</p>
+            <div id="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('HEy.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick= "location.href = '#contact'">Contact</button>
+            </div>
+            <div id="socials">
+                <a href='https://github.com/BileyX' target="_blank"><img src="github.png" alt="Github profile" class="icon" ></a>
+                <a href='https://t.me/Xxmob' target="_blank"><img src="telegram.svg" alt="Github profile" class="icon"></a>
+            </div>
+        </div>
+      </section>
+      <section id="about">
+        <p id="text">More details</p>
+        <h1 id="me">About me</h1>
+        <div class="about-details">
+            <div class="experience">
+                <h1>Experience</h1>
+                <p class="abouttext">Although I'm still a student and don't have much experience, I have been working and learning every day to enhance my skills as a developer.</p>
+            </div>
+            <div class="education">
+                <h1>Education</h1>
+                <p class="abouttext">I am currently pursuing a B.Sc. degree at ASTU, focusing on learning and mastering various technologies in the field of <br/>Software Engineering. </p>
+            </div>
+        </div>
+        <div class="interest">
+            <h1>Interests</h1>
+            <p class="abouttext">I have a strong interest in Machine Learning and AI, developing intelligent systems that can learn from data and make wise decisions is a passion of mine. I am fascinated by their potential to transform industries and improve lives.</p>
+        </div>
+      </section>
+      <section id="skills">
+        <p id="text">Explore my</p>
+        <h1 id="me">Skills</h1>
+        <!-- <div class="hskills">
+            <p>Explore My</p>
+            <h1 id="skills-head">Skills</h1>
+        </div> -->
+        <div id="skills-container">
+            <div id="html">
+                <h2>HTML</h2>
+                <p>Able to write clear, well-organized HTML code structure and content using HTML tags which serves as the basis for web pages.</p>
+            </div>
+            <div id="css">
+                <h2>CSS</h2>
+                <p>knowledgeable about using CSS styles to manipulate layout, font, color, and animation in HTML elements.</p>
+            </div>
+            <div id="js">
+                <h2>JavaScript</h2>
+                <p>Solid knowledge of JavaScript that makes it possible to create dynamic and interactive website elements.</p>
+            </div>
+            <!-- <ul id="skill-list">
+                <li>
+                    <span class="black"><strong>HTML</strong></span>: Able to write clear, well-organized HTML code structure and content using HTML tags which serves as the basis for web pages.
+                </li>
+                <li>
+                    <span class="black"><strong>CSS</strong></span>: knowledgeable about using CSS styles to manipulate layout, font, color, and animation in HTML elements.
+                </li>
+                <li>
+                    <span class="black"><strong>JavaScript</strong></span>: Solid knowledge of JavaScript that makes it possible to create dynamic and interactive website elements.
+                </li>
+                <li>
+                    <span class="black"><strong>Responsive Web Design</strong></span>: Skilled in creating websites that adjust and show correctly across a range of devices and screen sizes for a smooth user experience.
+                </li>
+            </ul> -->
+        </div>
+        <div id="php">
+            <h2>PHP</h2>
+            <p>Skilled in the server-side scripting language used to develop websites. knowledgeable about working with databases and server-side processing using PHP.</p>
+        </div>    
+      </section>
+      <section id="projects">
+        <p id="text">My</p>
+        <h1 id="me">Projects</h1>
+        <div id="meme-gen">
+            <img class="projecti" src="proj.jpg"/>
+        </div>
+        <div class="project-details">
+            <h1>Meme Generator</h1>
+            <a href='https://github.com/BileyX/Random-Meme-Generator' target="_blank"><button id="proj1" class="btn btn-color-1">Github</button></a>
+            <a target="_blank"><button id="proj2" class="btn btn-color-2">Live Demo</button></a>
+        </div>
+      </section>
+      <section id="contact">
+        <p id="text">Get in touch</p>
+        <h1 id="me">Lets connect</h1>
+        <div id="contact-container">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><img class="icon" src="email.png"></a>
+            <p id="email"><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">brxsitota@gmial.com</a></p>
+        </div>
+      </section>
+      <footer>
+        <nav>
+            <div>
+                <ul id="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+        </nav>
+      </footer>
+    <script src="index.js"></script>
+</body>
+</html>

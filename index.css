@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+nav, #nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+#nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+#name {
+  font-size: 2rem;
+}
+
+#name:hover {
+  cursor: default;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+section{
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+#section-container{
+  display: flex;
+}
+
+#profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+#profile-pic{
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+#pic{
+  border-radius: 50%;
+  margin-top: 5rem;
+  height: 350px;
+  width: 350px;
+}
+
+#profile-text{
+  align-self: center;
+  text-align: center;
+}
+
+#text{
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#me{
+  font-size: 3rem;
+  text-align: center;
+}
+
+#text2{
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+#socials{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icon{
+  cursor: pointer;
+  height: 3rem;
+}
+
+#btn-container{
+  display:flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2{
+  border: rgb(53,53,53) 0.1rem solid;
+}
+.btn-color-1:hover, .btn-color-2:hover{
+  cursor: pointer;
+}
+.btn-color-1, .btn-color-2:hover{
+  background: rgb(53, 53, 53);
+  color: white
+}
+
+.btn-color-1:hover{
+  background: rgb(0,0,0);
+}
+.btn-color-2{
+  background: none;
+}
+.btn-color-2:hover{
+  border: rgb(255,255,255) 0.1rem solid
+}
+
+#btn-container{
+  gap: 1rem;
+}
+
+.about-details{
+  display: flex;
+  margin-top: 3rem;
+  font-size: large;
+  justify-content: space-around;
+}
+
+.education, .experience, .interest{
+  font-size: 1.3rem; 
+  width: 17rem;
+  text-align: center;
+  border-radius: 10%;
+}
+.interest{
+  margin-top: 4rem;
+  margin-left: 32%;
+  width: 24rem;
+}
+
+.abouttext{
+  margin-top: 1rem;
+}
+
+#skill-list{
+  color: rgb(85, 85, 85);
+  font-size: 1.3rem;
+  list-style: none;
+  text-align: left;
+}
+
+.black{
+  color:black;
+}
+
+
+#skills-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.hskills{
+  margin-left: 49%;
+}
+
+#skills-head{
+  font-size: 2rem;
+  margin-top: 1rem; 
+}
+
+#html,#css,#js,#php{
+  font-size: 1.3rem;
+  padding-top: 15px;
+  height: 25vh;
+  padding: 1rem;
+}
+
+#php{
+  margin-top: 3rem;
+  width: 20.5rem;
+  text-align: center;
+  margin-left:35.5%;
+}
+
+#html h2,#css h2,#js h2,#php h2{
+  margin-bottom: 1rem;
+}
+
+.projecti{
+  margin-top: 1.5rem;
+  margin-left: 32%;
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+}
+
+.project-details{
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+ #proj1,#proj2{
+  margin-top: 1rem;
+ }
+
+ #contact-container{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+ }
+#email{
+  padding: 10px;
+  margin-left: 0.2rem;
+  font-size: 1.6rem;
+  color: black;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color:rgb(163,163,163);
+  border-radius: 2rem;
+}
+
+#contact{
+  align-content: center;
+  height: 85vh;
+}
