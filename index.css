@@ -266,6 +266,10 @@ section{
   border-radius: 2rem;
 }
 
+.email-link:hover{
+  text-decoration: none;
+}
+
 #contact{
   align-content: center;
   height: 85vh;
