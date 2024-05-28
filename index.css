@@ -40,6 +40,14 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+#moon{
+  height: 2rem;
+}
+
+#sun{
+  height: 2rem;
+}
+
 #name {
   font-size: 2rem;
 }
@@ -273,4 +281,18 @@ section{
 #contact{
   align-content: center;
   height: 85vh;
+}
+
+.dark{
+  background-color: black;
+  color:#faefc8;
+  button{
+    color: white;
+  }
+  a{
+    color: white;
+  }
+  p{
+    color: white;
+  }
 }
